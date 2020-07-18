@@ -1,0 +1,5 @@
+<launch>
+    <node pkg='mecanum_robot' name='mecanum_controller' type='MecanumController2.py'/>
+    <node pkg='mecanum_robot' name='motor' type='Motor.py'/>
+    <node pkg='mecanum_robot' name='main' type='main.py'/>
+</launch>

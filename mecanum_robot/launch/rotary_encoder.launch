@@ -1,0 +1,4 @@
+<launch>
+    <node pkg='mecanum_robot' name='read_rotary_encoder' type='RotaryEncoder.py'/>
+    <node pkg='mecanum_robot' name='sub_rotary_encoder' type='rotary_encoder_sub.py' output='screen'/>
+</launch>
